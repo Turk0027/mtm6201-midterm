@@ -1,0 +1,516 @@
+body{
+    font-family: Arial;
+    margin: 0;
+}
+
+.skip {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.skip:focus {
+  position: static;
+  width: auto;
+  height: auto;
+}
+
+@media screen and (max-width: 500px){
+
+  #largedonation{
+    display:none;
+  }
+
+
+
+  #start2{
+    display: none;
+    }
+    
+    #sharing2{
+      display: none;
+    }
+
+
+  #bigpic1{
+    display:none;
+  }
+
+  #trendingchar{
+    margin-left:10px;
+     color:gray;
+     font-size:small;
+     font-weight: lighter;
+   }
+
+  .navbar {
+    width: 100%;
+    background-color: #ffffff;
+    display:grid;
+    grid-template-columns:  6em 7em 7em 4em;
+    justify-content: center;
+    font-size:small;
+    position: sticky;
+    bottom:0;
+  }
+
+  .navbar a {
+    color: rgb(17, 17, 17);
+    text-decoration: none;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+    transition-property: color;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+  }
+
+  .navbar a:hover {
+    color: #0D65D8;
+    text-decoration: none;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+#welfare::after{
+  content: '';
+  display: block;
+  border-bottom: 2px solid #0D65D8;
+  margin-bottom: -2px;
+  max-width: 200px;
+  padding-bottom: 20px;
+  }
+
+#donation{
+margin-left:10px;
+margin-right:10px;
+border-radius: 8px;
+
+}
+
+#donationtoo{
+  width:22.7em;
+  margin-left:10px;
+  margin-right:10px;
+  border-radius: 8px;
+  
+  }
+
+.thefunds{
+  align-items:center;
+  display:grid;
+  grid-template-columns: 15rem 4rem 3rem;
+}
+
+#cancelledmoney{
+  color:gray;
+  text-decoration: line-through;
+}
+
+#money{
+  color:#0D65D8;
+  font-size:1.2rem;
+}
+
+#funding{
+  font-weight:lighter;
+  color:gray;
+  margin-left:10px;
+  font-size:90%;
+}
+
+
+#welfare{
+  margin-right: 10px;
+  margin-left:10px;
+  font-weight: lighter;
+  max-width: 361px;
+  border-bottom: 2px solid gray;
+}
+
+#weltitle{
+  margin-left:10px;
+  font-weight: lighter;
+  font-size:2em;
+}
+
+#weltitletoo{
+ margin-left:10px;
+
+}
+
+#information{
+  color:gray;
+  font-size:1.1em;
+  width:20em;
+  margin-left:10px;
+}
+
+#matt{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right:0;
+  top:0;
+}
+
+#start1{
+font-size:25px;
+ color:#0D65D8;
+ display:flex;
+ justify-content:center;
+}
+
+#sharing1{
+  font-size:25px;
+  font-family:sans-serif;
+  color:gray;
+  white-space: nowrap;
+  display:flex;
+ justify-content:center;
+}
+
+
+.homeoptions{
+
+  display:grid;
+  grid-template-columns:50% 50%;
+  margin-bottom:50px;
+}
+
+#trending{
+ margin-left:10px;
+  color:gray;
+  font-size:large;
+  font-weight: lighter;
+}
+
+#homebutton{
+  background-color: #0D65D8;
+  border: none;
+  color: white;
+  padding: 10px 2rem;
+  white-space:nowrap;
+  text-decoration:none;
+  text-align: center;
+  font-size:14px;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:25px;
+  cursor: pointer;
+  border-radius:4px;
+  justify-content: center;
+
+}
+
+#buttontoo{
+  background-color: #ffffff;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 10px 2rem;
+  white-space:nowrap;
+  text-decoration:none;
+  text-align: center;
+  width:25%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:25px;
+  cursor: pointer;
+  border-radius:4px;
+  justify-content: center;
+
+}
+
+
+
+.button {
+    background-color: #0D65D8;
+    border: none;
+    color: white;
+    padding: 1rem 8rem;
+    font-size:20px;
+    text-align: center;
+    width:25%;
+    text-decoration:none;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:50px;
+    margin-bottom:80px;
+    cursor: pointer;
+    border-radius:4px;
+    white-space: nowrap;
+  }
+
+ #splashimage{
+ width:100%;
+  }
+
+ #largedonationtoo{
+  display:none;
+ }
+
+ .button:hover{
+  animation-name: hovering;
+  animation-duration:4s;
+  }
+
+  @keyframes hovering{
+   
+    0%{
+       transform:scale(1)
+    }
+
+   100%{
+    transform:scale(1.1)
+ }
+  }
+
+}
+
+@media screen and (min-width: 501px){
+
+
+  #start2{
+    font-size:25px;
+     color:#0D65D8;
+     display:flex;
+     justify-content:center;
+     margin-left:260px;
+     margin-top: 300px;
+    }
+    
+    #sharing2{
+      font-size:25px;
+      font-family:sans-serif;
+      color:gray;
+      white-space: nowrap;
+      display:flex;
+     justify-content:center;
+     margin-left:260px;
+    }
+    
+    #start1{
+    display: none;
+    }
+    
+    #sharing1{
+      display: none;
+    }
+
+
+    .button {
+      background-color: #0D65D8;
+      border: none;
+      color: white;
+      padding: 1rem 8rem;
+      font-size:20px;
+      text-align: center;
+      width:25%;
+      text-decoration:none;
+      display:block;
+      align-self:center;
+      margin-left:250px;
+      margin-top:50px;
+      cursor: pointer;
+      border-radius:4px;
+      white-space: nowrap;
+    }
+
+    .button:hover{
+    animation-name: hovering;
+    animation-duration:4s;
+    }
+
+    @keyframes hovering{
+     
+      0%{
+         transform:scale(1)
+      }
+
+     100%{
+      transform:scale(1.2)
+   }
+    }
+
+    #welfare::after{
+      content: '';
+      display: block;
+      border-bottom: 2px solid #0D65D8;
+      margin-bottom: -2px;
+      max-width: 200px;
+      padding-bottom: 20px;
+      }
+
+      #welfare{
+        margin-right: 10px;
+        margin-left:10px;
+        font-weight: lighter;
+        max-width: 361px;
+        border-bottom: 2px solid gray;
+      }
+
+      .thefunds{
+        align-items:center;
+        display:grid;
+        grid-template-columns: 15rem 4rem 3rem;
+      }
+
+    #cancelledmoney{
+  color:gray;
+  text-decoration: line-through;
+}
+
+#money{
+  color:#0D65D8;
+  font-size:1.2rem;
+}
+
+#funding{
+  font-weight:lighter;
+  color:gray;
+  margin-left:10px;
+  font-size:90%;
+}
+
+#smallpic1{
+  display:none;
+}
+
+#bigpic1{
+ height:100%;
+}
+
+#partpart{
+  display: flex;
+}
+
+#largedonation{
+  margin-left:10px;
+  margin-right:10px;
+  border-radius: 8px;
+
+}
+
+#donation{
+
+  display:none;
+}
+
+#homebutton{
+  background-color: #0D65D8;
+  border: none;
+  color: white;
+  padding: 10px 2rem;
+  white-space:nowrap;
+  text-decoration:none;
+  text-align: center;
+  font-size:14px;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:25px;
+  cursor: pointer;
+  border-radius:4px;
+  justify-content: center;
+
+}
+
+#buttontoo{
+  background-color: #ffffff;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 10px 2rem;
+  white-space:nowrap;
+  text-decoration:none;
+  text-align: center;
+  width:25%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:25px;
+  cursor: pointer;
+  border-radius:4px;
+  justify-content: center;
+
+}
+
+#trending{
+  margin-left:10px;
+   color:gray;
+   font-size:large;
+   font-weight: lighter;
+ }
+
+ #matt{
+  width: 70px;
+  height:70px;
+  position: absolute;
+  right:0;
+  top:0;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #ffffff;
+  display:grid;
+  grid-template-columns:  15em 15em 15em 15em;
+  justify-content: center;
+  font-size:small;
+  position: sticky;
+  bottom:0;
+}
+
+.navbar a {
+  color: rgb(17, 17, 17);
+  text-decoration: none;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+
+  transition-property: color;
+transition-duration: 0.5s;
+transition-timing-function: ease-out;
+}
+
+.navbar a:hover {
+  color: #0D65D8;
+  text-decoration: none;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#donationtoo{
+display:none;
+  
+}
+
+#largedonationtoo{
+
+  margin-left:10px;
+  margin-right:10px;
+  border-radius: 8px;
+  
+}
+
+.dontrending{
+
+  padding-left:30%;
+}
+
+#sanfran{
+
+  font-size:larger;
+}
+
+}
